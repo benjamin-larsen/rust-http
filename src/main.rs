@@ -1,4 +1,5 @@
 mod socket;
+mod http;
 
 use std::thread::available_parallelism;
 use std::net::TcpListener;
